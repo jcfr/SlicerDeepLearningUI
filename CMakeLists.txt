@@ -4,12 +4,16 @@ project(DeepLearningWizard)
 
 #-----------------------------------------------------------------------------
 # Extension meta-information
-set(EXTENSION_HOMEPAGE "https://www.slicer.org/wiki/Documentation/Nightly/Extensions/DeepLearningUI")
-set(EXTENSION_CATEGORY "Deep Learning")
+set(EXTENSION_HOMEPAGE "https://github.com/mturja-vf-ic-bd/SlicerDeepLearningUI#readme")
+set(EXTENSION_CATEGORY "Machine Learning")
 set(EXTENSION_CONTRIBUTORS "Md Asadullah Turja (University of North Carolina at Chapel Hill)")
-set(EXTENSION_DESCRIPTION "This extention creates a UI for training deep learning models such as EfficientNet, ResNet etc.  It is developed for training medical images such Brain MRI data.")
-set(EXTENSION_ICONURL "http://www.example.com/Slicer/Extensions/DeepLearningUI.png")
-set(EXTENSION_SCREENSHOTURLS "http://www.example.com/Slicer/Extensions/DeepLearningUI/Screenshots/1.png")
+set(EXTENSION_DESCRIPTION "This extension enables the user to run complex deep learning models for medical image classification using a simple UI without the need to understand any code.")
+set(EXTENSION_ICONURL "https://raw.githubusercontent.com/mturja-vf-ic-bd/SlicerDeepLearningUI/main/DeepLearningUI.png")
+set(EXTENSION_SCREENSHOTURLS
+  "https://raw.githubusercontent.com/mturja-vf-ic-bd/SlicerDeepLearningUI/main/screenshot.png"
+  "https://raw.githubusercontent.com/mturja-vf-ic-bd/SlicerDeepLearningUI/main/SurfaceLearnerOverviewImage.png"
+  "https://raw.githubusercontent.com/mturja-vf-ic-bd/SlicerDeepLearningUI/main/SurfaceLearnerWorkflow.png"
+)
 set(EXTENSION_DEPENDS "NA") # Specified as a list or "NA" if no dependencies
 
 #-----------------------------------------------------------------------------
